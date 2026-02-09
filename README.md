@@ -1,4 +1,4 @@
-#RecipeRecommender#
+
 **System rekomendacji przepisów (NLP)**
 
 Projekt implementuje system rekomendacji przepisów kulinarnych oparty na klasycznych technikach NLP.
