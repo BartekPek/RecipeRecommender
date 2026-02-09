@@ -1,10 +1,9 @@
+**Recipe Recommendation System (NLP)**
 
-**System rekomendacji przepisów (NLP)**
+This project implements a recipe recommendation system based on classical NLP techniques.
 
-Projekt implementuje system rekomendacji przepisów kulinarnych oparty na klasycznych technikach NLP.
-
-- System rekomendacji oparty o **TF-IDF** i **cosine similarity** – użytkownik podaje składniki, a model zwraca najbardziej dopasowane przepisy.
-- **Preprocessing tekstu** (normalizacja, usunięcie znaków specjalnych), wektorowa reprezentacja dokumentów i ranking podobieństwa.
-- **Interfejs CLI (argparse)** do łatwego uruchamiania programu z poziomu terminala.
-- **Ewaluacja modelu**: ranking prawdziwych przepisów (**MRR**, top-5 accuracy).
-- Możliwość dalszej rozbudowy o embeddingi **SBERT** lub modele sekwencyjne.
+- Recommendation system based on **TF-IDF** and **cosine similarity** — the user provides a list of ingredients and the model returns the most relevant recipes.
+- **Text preprocessing** (normalization, special character removal), vector-based document representation, and similarity ranking.
+- **CLI interface (argparse)** for easy execution from the command line.
+- **Model evaluation** using ranking-based metrics (**MRR**, top-5 accuracy).
+- Designed for further extension with **SBERT embeddings** or sequential models.
